@@ -1,0 +1,73 @@
+/*canvas{background-color: red;}*/
+body
+{ 
+        
+}
+.ruby
+{
+   display: block ruby; 
+    margin-left: auto;
+margin-right: auto;
+width: 105px;
+}
+td{
+ background: rgba(225, 199, 199, 0.7);
+ width: 120px;
+ height: 72px;
+    display: inline-block;
+    margin-left: 2px;
+}
+progress{display: none; width: 117px;height: 3px; position: absolute;}
+.wheat, .cow, .ch
+{
+ width: 120px;
+ height: 72px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+}
+.wheat
+{
+background-image: url(../img/wheat.png);
+
+}
+.cow
+{
+background-image: url(../img/cow.png);
+    background-color: #ffffff;
+}
+
+.ch
+{
+background-image: url(../img/ch.png);
+    background-color: #bbbbff;
+}
+
+.q_wheat, .q_milk, .q_egg
+{
+    display: none;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    background: #ffedcf;
+    color: #1f6819;
+    
+}
+
+.bordered
+{
+    border: 2px solid black;
+    box-shadow: 0 0 10 px black;
+}
+
+.start_wheat, .start_cow, .start_ch
+{
+     width: 35px;
+ height: 35px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.start_wheat{background-image: url(../img/wheat.png);}
+.start_cow{background-image: url(../img/cow.png);}
+.start_ch{background-image: url(../img/ch.png);}
+
